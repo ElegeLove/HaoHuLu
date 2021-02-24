@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "特殊情况",
+  "navigationBarBackgroundColor": "#fff",
+  "type": "back",
+  "titleText": "特殊情况",
+  "titleSize": "36upx",
+  "titleColor": "#333333",
+  "usingComponents": {}
+}

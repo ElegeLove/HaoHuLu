@@ -1,0 +1,67 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/Login/login",
+    "pages/Login/agreement",
+    "pages/index/showInfo",
+    "pages/Order/Order",
+    "pages/Order/OrderInfo",
+    "pages/Order/Surefinish",
+    "pages/My/My",
+    "pages/My/PersonalInfo",
+    "pages/My/OtherInfo",
+    "pages/My/NotifyInfo",
+    "pages/My/About",
+    "pages/My/Summary",
+    "pages/My/Wallet",
+    "pages/My/Bill",
+    "pages/index/orderLocation",
+    "pages/Login/country",
+    "pages/index/incAddress",
+    "pages/Order/payThanks",
+    "pages/Order/paySuccess",
+    "pages/index/optCity",
+    "pages/My/inAudit",
+    "pages/My/auditPass"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#B4B3B3",
+    "selectedColor": "#FFC833",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/icon_index.png",
+        "selectedIconPath": "static/images/icon_select_index.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/Order/Order",
+        "iconPath": "static/images/icon_order.png",
+        "selectedIconPath": "static/images/icon_select_order.png",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/My/My",
+        "iconPath": "static/images/icon_my.png",
+        "selectedIconPath": "static/images/icon_select_my.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "好葫芦-医生端",
+  "compilerVersion": "2.6.1",
+  "usingComponents": {}
+}

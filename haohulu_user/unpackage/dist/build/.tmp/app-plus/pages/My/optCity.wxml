@@ -1,0 +1,1 @@
+<view class="data-v-68d95b1a"><uni-indexed-list vue-id="1" options="{{textData}}" show-select="{{false}}" data-event-opts="{{[['^tap',[['bindClick']]]]}}" bind:tap="__e" class="data-v-68d95b1a" bind:__l="__l"></uni-indexed-list></view>

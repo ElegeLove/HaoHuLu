@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "用户协议",
+  "navigationBarBackgroundColor": "#fff",
+  "type": "back",
+  "titleText": "用户协议",
+  "titleSize": "36upx",
+  "titleColor": "#333333",
+  "usingComponents": {}
+}

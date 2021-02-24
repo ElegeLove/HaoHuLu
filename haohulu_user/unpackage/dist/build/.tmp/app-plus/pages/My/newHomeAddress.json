@@ -1,0 +1,26 @@
+{
+  "navigationBarTitleText": "新建上门地址",
+  "navigationBarBackgroundColor": "#fff",
+  "type": "back",
+  "compatible": {
+    "ignoreVersion": true
+  },
+  "bounce": "none",
+  "titleText": "新建上门地址",
+  "titleSize": "36upx",
+  "titleColor": "#333333",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "",
+        "fontSize": "36upx",
+        "fontWeight": "500",
+        "float": "right",
+        "color": "#333333"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popupss"
+  }
+}

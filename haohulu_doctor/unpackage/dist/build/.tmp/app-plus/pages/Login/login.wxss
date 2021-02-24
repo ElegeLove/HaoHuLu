@@ -1,0 +1,118 @@
+
+.content.data-v-0438c57b {
+		text-align: center;
+		height: 400rpx;
+		padding: 0 75rpx;
+		box-sizing: border-box;
+}
+.logo.data-v-0438c57b{
+        height: 200rpx;
+        width: 200rpx;
+        margin-top: 100rpx;
+}
+.title.data-v-0438c57b {
+		font-size: 48rpx;
+		color: #333333;
+}
+.phoneVel.data-v-0438c57b,.verCode.data-v-0438c57b{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		        align-items: center;
+		margin-top: 150rpx;
+		border-bottom: 1rpx solid #E5E5E5;
+		padding-bottom: 18rpx;
+}
+.phoneVelLeft.data-v-0438c57b{
+		width: 110rpx;
+		height: 58rpx;
+		background: #F5F5F5;
+		padding: 10rpx 20rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		        justify-content: space-between;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		        align-items: center;
+		margin-right: 34rpx;
+}
+.phoneText.data-v-0438c57b{
+		font-size: 30rpx;
+		color: #666666;
+}
+.phoneIcon.data-v-0438c57b{
+		width: 30rpx;
+		height: 30rpx;
+		/* margin-left: 16upx; */
+}
+.uni-input.data-v-0438c57b{
+		width: 400rpx;
+		text-align: left;
+		font-size: 30rpx;
+		color: #666666;
+}
+.verCode.data-v-0438c57b{
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		        justify-content: space-between;
+		margin-top: 44rpx;
+}
+.verCodeReight.data-v-0438c57b{
+		width: 200rpx;
+		height: 44rpx;
+		line-height: 44rpx;
+		padding: 0 20rpx;
+		border-left: 1rpx solid #E5E5E5 !important;
+		text-align: center;
+		background: #FFFFFF !important;
+		box-sizing: border-box;
+		border-radius: 0;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		        justify-content: center;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		        align-items: center;
+}
+button.data-v-0438c57b::after{ border: none;
+}
+.verCodeText.data-v-0438c57b{
+		color: #FFC833;
+		font-size: 30rpx;
+}
+.logoBtn.data-v-0438c57b{
+		height: 100rpx;
+		height: 88rpx;
+		margin-top: 72rpx;
+		background: #FFC833;
+		border-radius: 44rpx;
+		color: #333333;
+		font-size: 40rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		        justify-content: center;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		        align-items: center;
+}
+.footer.data-v-0438c57b{
+		font-size: 24rpx;
+		text-align: center;
+		color: #999999;
+		margin-top: 24rpx;
+}
+.footer_text.data-v-0438c57b{
+		color: #FFC833;
+}
+

@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "订单详情",
+  "navigationBarBackgroundColor": "#fff",
+  "type": "back",
+  "compatible": {
+    "ignoreVersion": true
+  },
+  "titleText": "订单详情",
+  "titleSize": "36upx",
+  "titleColor": "#333333",
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popupss",
+    "Y-Steps": "/components/Y-Steps/Y-Steps",
+    "y-steps": "/components/Y-Steps/Y-Steps"
+  }
+}

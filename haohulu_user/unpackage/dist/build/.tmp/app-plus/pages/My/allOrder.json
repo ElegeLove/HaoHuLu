@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "全部订单",
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#fff",
+  "type": "back",
+  "titleText": "全部订单",
+  "titleSize": "36upx",
+  "titleColor": "#333333",
+  "usingComponents": {
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}

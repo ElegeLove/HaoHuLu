@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "关于好葫芦",
+  "navigationBarBackgroundColor": "#fff",
+  "type": "back",
+  "compatible": {
+    "ignoreVersion": true
+  },
+  "titleText": "关于好葫芦",
+  "titleSize": "36upx",
+  "titleColor": "#333333",
+  "usingComponents": {}
+}

@@ -1,0 +1,1 @@
+<view class="content data-v-a0cb6126"><image class="img data-v-a0cb6126" src="{{banVal.url}}"></image><view class="main data-v-a0cb6126"><rich-text nodes="{{banVal.content}}"></rich-text></view></view>

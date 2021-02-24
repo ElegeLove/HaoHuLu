@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "账单",
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#fff",
+  "type": "back",
+  "compatible": {
+    "ignoreVersion": true
+  },
+  "titleText": "账单",
+  "titleSize": "36upx",
+  "titleColor": "#333333",
+  "usingComponents": {
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarBackgroundColor": "#fff",
+  "titleNView": false,
+  "usingComponents": {
+    "special-banner": "/components/EtherealWheat-banner/specialBanner"
+  }
+}

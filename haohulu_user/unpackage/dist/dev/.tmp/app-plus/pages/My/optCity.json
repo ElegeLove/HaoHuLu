@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "选择城市",
+  "navigationBarBackgroundColor": "#fff",
+  "type": "back",
+  "titleText": "选择城市",
+  "titleSize": "36upx",
+  "titleColor": "#333333",
+  "usingComponents": {
+    "uni-indexed-list": "/components/uni-indexed-list/uni-indexed-list"
+  }
+}

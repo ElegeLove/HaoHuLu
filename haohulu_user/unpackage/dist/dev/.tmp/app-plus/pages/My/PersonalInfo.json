@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "个人资料",
+  "navigationBarBackgroundColor": "#fff",
+  "type": "back",
+  "titleText": "个人资料",
+  "titleSize": "36upx",
+  "titleColor": "#333333",
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popupss"
+  }
+}

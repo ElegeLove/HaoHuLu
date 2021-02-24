@@ -1,0 +1,10 @@
+{
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#000",
+  "titleNView": false,
+  "usingComponents": {
+    "tab-game": "/pages/index/index",
+    "tab-discovery": "/pages/Order/Order",
+    "tab-data": "/pages/My/My"
+  }
+}

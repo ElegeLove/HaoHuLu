@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "查看汇总",
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#fff",
+  "type": "back",
+  "compatible": {
+    "ignoreVersion": true
+  },
+  "titleText": "查看汇总",
+  "titleSize": "36upx",
+  "titleColor": "#333333",
+  "usingComponents": {
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}

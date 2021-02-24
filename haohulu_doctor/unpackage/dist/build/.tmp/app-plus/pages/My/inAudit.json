@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "审核中",
+  "navigationBarBackgroundColor": "#fff",
+  "type": "back",
+  "compatible": {
+    "ignoreVersion": true
+  },
+  "titleText": "审核中",
+  "titleSize": "36upx",
+  "titleColor": "#333333",
+  "usingComponents": {}
+}

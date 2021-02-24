@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "个人信息",
+  "navigationBarBackgroundColor": "#fff",
+  "type": "back",
+  "compatible": {
+    "ignoreVersion": true
+  },
+  "titleText": "个人信息",
+  "titleSize": "36upx",
+  "titleColor": "#333333",
+  "usingComponents": {}
+}

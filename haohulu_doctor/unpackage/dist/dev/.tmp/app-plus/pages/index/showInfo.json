@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "查看详情",
+  "navigationBarBackgroundColor": "#fff",
+  "type": "back",
+  "compatible": {
+    "ignoreVersion": true
+  },
+  "titleText": "查看详情",
+  "titleSize": "36upx",
+  "titleColor": "#333333",
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popupss"
+  }
+}

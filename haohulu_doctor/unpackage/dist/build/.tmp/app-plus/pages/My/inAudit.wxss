@@ -1,0 +1,39 @@
+
+.content.data-v-c9c7fd52{
+	width: 100%;
+	padding: 0 30rpx;
+	box-sizing: border-box;
+	text-align: center;
+	font-family:'PingFang SC';
+	font-weight:500;
+}
+.main_img.data-v-c9c7fd52{
+	width: 126rpx;
+	height: 137rpx;
+	margin: 200rpx 0 54rpx;
+}
+.main_title.data-v-c9c7fd52,.main_btn.data-v-c9c7fd52{
+	font-size:36rpx;
+	color:rgba(51,51,51,1);
+}
+.main_text.data-v-c9c7fd52{
+	font-size:30rpx;
+	color:rgba(153,153,153,1);
+	margin: 24rpx 0 106rpx;
+}
+.main_btn.data-v-c9c7fd52{
+	width: 100%;
+	height: 88rpx;
+	border-radius: 44rpx;
+	background-color: #FFC833;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+

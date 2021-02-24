@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "添加接单地址",
+  "navigationBarBackgroundColor": "#fff",
+  "enablePullDownRefresh": true,
+  "type": "back",
+  "compatible": {
+    "ignoreVersion": true
+  },
+  "titleText": "添加接单地址",
+  "titleSize": "36upx",
+  "titleColor": "#333333",
+  "usingComponents": {}
+}

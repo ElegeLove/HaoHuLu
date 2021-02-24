@@ -1,0 +1,25 @@
+{
+  "navigationBarTitleText": "钱包",
+  "navigationBarBackgroundColor": "#fff",
+  "type": "back",
+  "compatible": {
+    "ignoreVersion": true
+  },
+  "bounce": "none",
+  "titleText": "钱包",
+  "titleSize": "36upx",
+  "titleColor": "#333333",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "账单",
+        "fontSize": "36upx",
+        "fontWeight": "500",
+        "float": "right",
+        "color": "#333333",
+        "onclick": "plus.webview.getWebviewById('pages/My/Summary')"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

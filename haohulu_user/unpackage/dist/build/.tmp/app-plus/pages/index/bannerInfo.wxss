@@ -1,0 +1,17 @@
+
+.content.data-v-abe0b416{
+		width: 100%;
+		padding: 0 30rpx;
+		box-sizing: border-box;
+}
+.img.data-v-abe0b416{
+		width: 100%;
+		height: 370rpx;
+		border-radius: 10rpx;
+		margin-bottom: 50rpx;
+}
+.main.data-v-abe0b416{
+		font-size: 28rpx;
+		color: #333333;
+}
+

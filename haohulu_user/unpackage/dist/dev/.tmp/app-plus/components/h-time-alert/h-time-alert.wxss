@@ -1,0 +1,190 @@
+
+.appintAlertMask {
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: -9999;
+	opacity: 0;
+	-webkit-transition: opacity 0s;
+	transition: opacity 0s;
+}
+.aMShow {
+	z-index: 999;
+	opacity: 1;
+}
+.appintAlertMask view {
+	box-sizing: border-box;
+}
+.appintAlertContent {
+	height: 0rpx;
+	background-color: #fff;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 30rpx 0 10rpx;
+	-webkit-transition: height 0.5s;
+	transition: height 0.5s;
+	border-radius:50rpx 50rpx 0rpx 0rpx;
+	/* position: relative; */
+}
+.aCShow {
+	height: auto;
+}
+.alertTtitle {
+	text-align: center;
+	font-size: 32rpx;
+	color: #222222;
+	font-weight: 600;
+	position: relative;
+}
+.popImg{
+	width: 36rpx;
+	height: 36rpx;
+	position: absolute;
+	top: 34rpx;
+	right: 34rpx;
+}
+.closeBtn {
+	position: absolute;
+	width: 80rpx;
+	line-height: 80rpx;
+	text-align: center;
+	right: 0rpx;
+	padding-right: 15rpx;
+	top: 0;
+	color: #999999;
+	z-index: 99;
+	font-size: 44rpx;
+}
+.alertTtitle > view:nth-child(2) {
+	font-size: 22rpx;
+	color: #919191;
+	margin-top: 10rpx;
+}
+.alertChangetab {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	padding: 10rpx 60rpx;
+	position: relative;
+}
+.alertChangetab::after {
+	content: ' ';
+	width: 690rpx;
+	position: absolute;
+	left: 20rpx;
+	bottom: 0;
+	height: 1rpx;
+	background-color: #f4f4f4;
+}
+.alertChangetab > view {
+	width: 282rpx;
+	height: 110rpx;
+	border: 1rpx solid rgba(145, 145, 145, 1);
+	border-radius: 20rpx;
+	font-size: 36rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-transition: background-color 0.3s;
+	transition: background-color 0.3s;
+}
+.alertChangetab > view image {
+	width: 82rpx;
+	height: 82rpx;
+	margin-right: 25rpx;
+	background-color: #dd0000;
+}
+.alertChangetab > view > view {
+	text-align: center;
+}
+.alertChangetab > view > view:nth-child(2) {
+	font-size: 20px;
+}
+.alertChangetab > .active {
+	background-color: #dcb477;
+	color: #fff;
+	border: 1px solid #dcb477;
+}
+.alertTimebox {
+	background-color: #fbf8fb;
+	height: 660rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.alertTimebox > view {
+	height: 100%;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+	font-size: 28rpx;
+}
+.alertTimebox .left_box {
+	color: #919191;
+	width: 45%;
+}
+.alertTimebox .left_box view,
+.alertTimebox .right_box view {
+	text-align: center;
+	line-height: 90rpx;
+	position: relative;
+}
+.alertTimebox .right_box view::before {
+	content: ' ';
+	width: 80%;
+	position: absolute;
+	left: 10%;
+	bottom: 0;
+	border: none;
+	/* border: 1px dashed #f4f4f4; */
+}
+.alertTimebox .right_box view:last-child::before {
+	border: none;
+}
+.alertTimebox .right_box {
+	color: #222222;
+	width: 55%;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	background-color: #fff;
+	text-align: center;
+}
+.alertTimebox .right_box .active {
+	position: relative;
+	color: #dcb477;
+}
+.alertTimebox .left_box .active {
+	background-color: #fff;
+	color: #222222;
+}
+.alertTimebox .right_box .active::after {
+	content: '\2714';
+	position: absolute;
+	top: 0;
+	line-height: 90rpx;
+	right: 50rpx;
+}
+

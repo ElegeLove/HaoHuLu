@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"content.",[1],"data-v-7bda94b8{ padding: 0 ",[0,30],"; font-size: ",[0,28],"; color: #333333; }\n",],undefined,{path:"./pages/Login/agreement.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/Login/agreement.wxml') } }));

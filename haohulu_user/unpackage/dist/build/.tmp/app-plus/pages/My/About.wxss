@@ -1,0 +1,30 @@
+
+.main.data-v-051806d9{
+		width: 100%;
+		padding: 0 30rpx;
+		box-sizing: border-box;
+}
+    /* .main{
+        width: 100%;
+        position: fixed;
+        top: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+    /* .main_content{
+        text-align: center;
+    }
+    .title,.main_text{
+        font-size: 48upx;
+        color: #333333;
+    }
+    .main_text{
+        font-size: 30upx;
+    }
+    .icon{
+        width: 170upx;
+        height: 170upx;
+        border-right: 50%;
+    } */
+

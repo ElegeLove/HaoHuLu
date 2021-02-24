@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "确认上门地址",
+  "navigationBarBackgroundColor": "#fff",
+  "type": "back",
+  "titleText": "确认上门地址",
+  "titleSize": "36upx",
+  "titleColor": "#333333",
+  "usingComponents": {}
+}

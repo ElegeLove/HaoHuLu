@@ -1,0 +1,11 @@
+{
+  "navigationBarBackgroundColor": "#fff",
+  "enablePullDownRefresh": true,
+  "compatible": {
+    "ignoreVersion": true
+  },
+  "titleNView": false,
+  "usingComponents": {
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}

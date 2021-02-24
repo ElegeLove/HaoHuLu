@@ -1,0 +1,412 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarBackgroundColor":"#fff",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"compatible":{
+						"ignoreVersion":true
+					},
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/Login/login",
+			"style": {
+				"navigationBarBackgroundColor":"#fff",
+				"app-plus": {
+					"compatible":{
+						"ignoreVersion":true
+					},
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/Login/agreement",
+			"style": {
+				"navigationBarTitleText": "用户协议",
+				"navigationBarBackgroundColor": "#fff",
+				"type": "back",
+				"app-plus": {
+					"compatible":{
+						"ignoreVersion":true
+					},
+					"titleText": "用户协议",
+					"titleSize": "36upx",
+					"titleColor": "#333333"
+				}
+			}
+		},
+		{
+			"path": "pages/index/showInfo",
+			"style": {
+				"navigationBarTitleText": "查看详情",
+				"navigationBarBackgroundColor": "#fff",
+				"type": "back",
+				"app-plus": {
+					"compatible":{
+						"ignoreVersion":true
+					},
+					"titleText": "查看详情",
+					"titleSize": "36upx",
+					"titleColor": "#333333"
+				}
+			}
+		},
+		{
+			"path": "pages/Order/Order",
+			"style": {
+				"navigationBarBackgroundColor":"#fff",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"compatible":{
+						"ignoreVersion":true
+					},
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/Order/OrderInfo",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"navigationBarBackgroundColor": "#fff",
+				"type": "back",
+				"app-plus": {
+					"compatible":{
+						"ignoreVersion":true
+					},
+					"titleText": "订单详情",
+					"titleSize": "36upx",
+					"titleColor": "#333333"
+				}
+			}
+		},
+		{
+			"path": "pages/Order/Surefinish",
+			"style": {
+				"navigationBarTitleText": "确认完成",
+				"navigationBarBackgroundColor": "#fff",
+				"type": "back",
+				"app-plus": {
+					"compatible":{
+						"ignoreVersion":true
+					},
+					"titleText": "确认完成",
+					"titleSize": "36upx",
+					"titleColor": "#333333"
+				}
+			}
+		},
+		{
+			"path": "pages/My/My",
+			"style": {
+				"navigationBarBackgroundColor":"#fff",
+				"app-plus": {
+					"compatible":{
+						"ignoreVersion":true
+					},
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/My/PersonalInfo",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"navigationBarBackgroundColor":"#fff",
+				"type":"back",
+				"app-plus": {
+					"compatible":{
+						"ignoreVersion":true
+					},
+					"titleNView" : {  
+						"splitLine": { //原生导航栏加下边框
+							"color": "#F5F5F5",
+							"height": "1px"
+						}
+					} 
+					
+				}
+				
+			}
+		},
+		{
+		    "path" : "pages/My/OtherInfo",
+		    "style" : {
+				"navigationBarTitleText": "其他信息",
+				"navigationBarBackgroundColor":"#fff",
+				"type":"back",
+				"app-plus": {
+					"compatible":{
+						"ignoreVersion":true
+					},
+					"titleText": "其他信息",
+					"titleSize":"36upx",
+					"titleColor":"#333333"
+				}
+			}
+		},
+		{
+		    "path" : "pages/My/NotifyInfo",
+		    "style" : {
+				"navigationBarTitleText": "消息通知",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor":"#fff",
+				"type":"back",
+				"app-plus": {
+					"compatible":{
+						"ignoreVersion":true
+					},
+					"titleText": "消息通知",
+					"titleSize":"36upx",
+					"titleColor":"#333333"
+				}
+			}
+		},
+		{
+			"path": "pages/My/About",
+			"style": {
+				"navigationBarTitleText": "关于好葫芦",
+				"navigationBarBackgroundColor":"#fff",
+				"type":"back",
+				"app-plus": {
+					"compatible":{
+						"ignoreVersion":true
+					},
+					"titleText": "关于好葫芦",
+					"titleSize":"36upx",
+					"titleColor":"#333333"
+				}
+			}
+		},
+		{
+			"path": "pages/My/Summary",
+			"style": {
+				"navigationBarTitleText": "查看汇总",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor":"#fff",
+				"type":"back",
+				"app-plus": {
+					"compatible":{
+						"ignoreVersion":true
+					},
+					"titleText": "查看汇总",
+					"titleSize":"36upx",
+					"titleColor":"#333333"
+				}
+			}
+		},
+		{
+			"path": "pages/My/Wallet",
+			"style": {
+				"navigationBarTitleText": "钱包",
+				"navigationBarBackgroundColor":"#fff",
+				"type":"back",
+				"app-plus": {
+					"compatible":{
+						"ignoreVersion":true
+					},
+					"bounce": "none",
+					"titleText": "钱包",
+					"titleSize":"36upx",
+					"titleColor":"#333333",
+					"titleNView":{
+						"buttons": [ 
+							{
+								"text": "账单", 
+								"fontSize":"36upx",
+								"fontWeight":"500",
+								"float": "right",
+								"color":"#333333",
+								"onclick":"plus.webview.getWebviewById('pages/My/Summary')"
+							}
+						]
+					}
+				}
+				
+			}
+		}
+        ,{
+            "path" : "pages/My/Bill",
+            "style" : {
+				"navigationBarTitleText": "账单",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor":"#fff",
+				"type":"back",
+				"app-plus": {
+					"compatible":{
+						"ignoreVersion":true
+					},
+					"titleText": "账单",
+					"titleSize":"36upx",
+					"titleColor":"#333333"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/index/orderLocation",
+            "style" : {
+				"navigationBarTitleText": "选择接单位置",
+				"navigationBarBackgroundColor": "#fff",
+				"type": "back",
+				"app-plus": {
+					"compatible":{
+						"ignoreVersion":true
+					},
+					"titleText": "查看详情",
+					"titleSize": "36upx",
+					"titleColor": "#333333"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/Login/country",
+            "style" : {
+				"navigationBarTitleText": "选择国家或地区",
+				"navigationBarBackgroundColor": "#fff",
+				"type": "back",
+				"app-plus": {
+					"compatible":{
+						"ignoreVersion":true
+					},
+					"titleText": "选择国家或地区",
+					"titleSize": "36upx",
+					"titleColor": "#333333"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/index/incAddress",
+            "style" : {
+				"navigationBarTitleText": "添加接单地址",
+				"navigationBarBackgroundColor": "#fff",
+				"enablePullDownRefresh": true,
+				"type": "back",
+				"app-plus": {
+					"compatible":{
+						"ignoreVersion":true
+					},
+					"titleText": "添加接单地址",
+					"titleSize": "36upx",
+					"titleColor": "#333333"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/Order/payThanks",
+            "style" : {
+				"navigationBarTitleText": "支付感谢费",
+				"navigationBarBackgroundColor": "#fff",
+				"type": "back",
+				"app-plus": {
+					"compatible":{
+						"ignoreVersion":true
+					},
+					"titleText": "支付感谢费",
+					"titleSize": "36upx",
+					"titleColor": "#333333"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/Order/paySuccess",
+            "style" : {
+				"navigationBarTitleText": "支付成功",
+				"navigationBarBackgroundColor": "#fff",
+				"type": "back",
+				"app-plus": {
+					"compatible":{
+						"ignoreVersion":true
+					},
+					"titleText": "支付成功",
+					"titleSize": "36upx",
+					"titleColor": "#333333"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/index/optCity",
+            "style" : {
+				"navigationBarTitleText": "选择城市",
+				"navigationBarBackgroundColor": "#fff",
+				"type": "back",
+				"app-plus": {
+					"compatible":{
+						"ignoreVersion":true
+					},
+					"titleText": "选择城市",
+					"titleSize": "36upx",
+					"titleColor": "#333333"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/My/inAudit",
+            "style" : {
+				"navigationBarTitleText": "审核中",
+				"navigationBarBackgroundColor": "#fff",
+				"type": "back",
+				"app-plus": {
+					"compatible":{
+						"ignoreVersion":true
+					},
+					"titleText": "审核中",
+					"titleSize": "36upx",
+					"titleColor": "#333333"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/My/auditPass",
+            "style" : {
+				"navigationBarTitleText": "个人信息",
+				"navigationBarBackgroundColor": "#fff",
+				"type": "back",
+				"app-plus": {
+					"compatible":{
+						"ignoreVersion":true
+					},
+					"titleText": "个人信息",
+					"titleSize": "36upx",
+					"titleColor": "#333333"
+				}
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#B4B3B3",
+		"selectedColor": "#FFC833",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/icon_index.png",
+				"selectedIconPath": "static/images/icon_select_index.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/Order/Order",
+				"iconPath": "static/images/icon_order.png",
+				"selectedIconPath": "static/images/icon_select_order.png",
+				"text": "订单"
+			},
+			{
+				"pagePath": "pages/My/My",
+				"iconPath": "static/images/icon_my.png",
+				"selectedIconPath": "static/images/icon_select_my.png",
+				"text": "我的"
+			}
+		]
+	}
+}

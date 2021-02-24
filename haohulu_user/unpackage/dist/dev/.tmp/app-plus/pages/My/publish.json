@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "发布成功",
+  "navigationBarBackgroundColor": "#fff",
+  "type": "back",
+  "titleText": "发布成功",
+  "titleSize": "36upx",
+  "titleColor": "#333333",
+  "usingComponents": {}
+}

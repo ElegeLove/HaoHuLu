@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/tab/tab",
+    "pages/Login/login",
+    "pages/Login/agreement",
+    "pages/index/index",
+    "pages/index/showInfo",
+    "pages/index/bannerInfo",
+    "pages/Order/Order",
+    "pages/Order/OrderInfo",
+    "pages/Order/Surefinish",
+    "pages/My/My",
+    "pages/My/NotifyInfo",
+    "pages/My/showInfos",
+    "pages/My/PersonalInfo",
+    "pages/My/About",
+    "pages/My/orderInfo",
+    "pages/My/allOrder",
+    "pages/My/userName",
+    "pages/Login/country",
+    "pages/My/special",
+    "pages/My/homeAddress",
+    "pages/My/newHomeAddress",
+    "pages/My/searchAddress",
+    "pages/My/optCity",
+    "pages/My/publish",
+    "pages/My/cancel"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "好葫芦-用户端",
+  "compilerVersion": "2.6.1",
+  "usingComponents": {}
+}

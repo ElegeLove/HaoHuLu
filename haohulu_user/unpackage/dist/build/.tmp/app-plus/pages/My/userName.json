@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "修改用户名",
+  "navigationBarBackgroundColor": "#fff",
+  "type": "back",
+  "titleText": "修改用户名",
+  "titleSize": "36upx",
+  "titleColor": "#333333",
+  "usingComponents": {}
+}

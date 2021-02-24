@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "个人信息",
+  "navigationBarBackgroundColor": "#fff",
+  "type": "back",
+  "compatible": {
+    "ignoreVersion": true
+  },
+  "titleNView": {
+    "splitLine": {
+      "color": "#F5F5F5",
+      "height": "1px"
+    }
+  },
+  "usingComponents": {}
+}

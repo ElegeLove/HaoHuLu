@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "取消成功",
+  "navigationBarBackgroundColor": "#fff",
+  "type": "back",
+  "titleText": "取消成功",
+  "titleSize": "36upx",
+  "titleColor": "#333333",
+  "usingComponents": {}
+}

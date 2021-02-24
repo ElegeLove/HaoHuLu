@@ -1,0 +1,97 @@
+
+.userInfo.data-v-285d001b{
+	width: 100%;
+	padding: 30rpx;
+	box-sizing: border-box;
+	border-bottom: 20rpx solid #F5F5F5;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.userInfo_log.data-v-285d001b{
+	width: 100rpx;
+	height: 100rpx;
+	border-radius: 50%;
+	margin-right: 20rpx;
+}
+.userInfo_name.data-v-285d001b{
+	font-size: 32rpx;
+	color: #000000;
+}
+.userSex.data-v-285d001b{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.userInfo_sex.data-v-285d001b{
+	width: 30rpx;
+	height: 30rpx;
+	margin: 0 10rpx 0 24rpx;
+}
+.userInfo_val.data-v-285d001b{
+	font-size: 24rpx;
+	color: #666666;
+}
+.userInfo_num.data-v-285d001b{
+	font-size: 24rpx;
+	color: #999999;
+}
+.main.data-v-285d001b{
+	width: 100%;
+	padding: 0 30rpx;
+	box-sizing: border-box;
+}
+.skillTitle.data-v-285d001b,.synopsisTitle.data-v-285d001b{
+	font-size: 30rpx;
+	font-weight: bold;
+	color: #000000;
+	margin: 40rpx 0 30rpx;
+}
+.synopsisTitle.data-v-285d001b{
+	margin-top: 90rpx;
+}
+.skill.data-v-285d001b,.synopsis.data-v-285d001b{
+	font-size: 28rpx;
+	color: #333333;
+	margin-top: 50rpx;
+}
+.certificate.data-v-285d001b{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	margin-top: 40rpx;
+}
+.certificate_img.data-v-285d001b{
+	width: 130rpx;
+	height: 130rpx;
+	border-radius: 10rpx;
+	margin-right: 20rpx;
+}
+.mainBtn.data-v-285d001b{
+	width: 100%;
+	height: 88rpx;
+	border-radius: 44rpx;
+	background-color: #FFC833;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	font-size: 36rpx;
+	color: #333333;
+	margin-top: 140rpx;
+}
+
