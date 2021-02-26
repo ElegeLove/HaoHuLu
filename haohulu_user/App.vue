@@ -10,25 +10,40 @@
 			// 		complete: () => {}
 			// 	});
 			// })
-			uni.getStorage({
-				key: 'token',
-				success: function(ress) {
-					uni.reLaunch({
-						url: "/pages/tab/tab",
-						success: res => {console.log(23222)},
-						fail: (err) => {console.log(1212)},
-						complete: () => {}
-					});
-				},
-				fail:function(){
-					uni.reLaunch({
-						url: "/pages/Login/login",
-						success: res => {},
-						fail: (err) => {console.log(err)},
-						complete: () => {}
-					});
-				}
-			});
+			if(uni.getStorageSync('token') && uni.getStorageSync('token') != ''){
+				uni.reLaunch({
+					url: "/pages/tab/tab",
+					success: res => {console.log(23222)},
+					fail: (err) => {console.log(1212)},
+					complete: () => {}
+				});
+			}else{
+				uni.reLaunch({
+					url: "/pages/Login/login",
+					success: res => {},
+					fail: (err) => {console.log(err)},
+					complete: () => {}
+				});
+			}
+			// uni.getStorageSync({
+			// 	key: 'token',
+			// 	success: function(ress) {
+			// 		uni.reLaunch({
+			// 			url: "/pages/tab/tab",
+			// 			success: res => {console.log(23222)},
+			// 			fail: (err) => {console.log(1212)},
+			// 			complete: () => {}
+			// 		});
+			// 	},
+			// 	fail:function(){
+			// 		uni.reLaunch({
+			// 			url: "/pages/Login/login",
+			// 			success: res => {},
+			// 			fail: (err) => {console.log(err)},
+			// 			complete: () => {}
+			// 		});
+			// 	}
+			// });
 		},
 		// onShow: function() {
 		// 	// console.log('App Show')

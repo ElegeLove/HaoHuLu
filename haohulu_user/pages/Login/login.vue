@@ -70,10 +70,7 @@
     				(res) => {
 						console.log(res)
     					if(res.data.code == 1){
-    						uni.setStorage({
-    							key:"token",
-    							data:res.data.data.key
-    						})
+							uni.setStorageSync("token",res.data.data.key)
     						uni.reLaunch({
     							url: "/pages/tab/tab",
     							success: res => {},

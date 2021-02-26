@@ -1,0 +1,9 @@
+{
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#000",
+  "usingComponents": {
+    "tab-game": "/pages/index/index",
+    "tab-discovery": "/pages/Order/Order",
+    "tab-data": "/pages/My/My"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "订单详情",
+  "navigationBarBackgroundColor": "#fff",
+  "type": "back",
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popupss",
+    "y-steps": "/components/Y-Steps/Y-Steps"
+  }
+}

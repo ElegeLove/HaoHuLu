@@ -115,6 +115,14 @@
 		methods: {
 			getOrderList(){
 				let that = this;
+				let token = '';
+				uni.getStorage({
+					key: 'token',
+					success: function(ress) {
+						token = ress.data
+					}
+				});
+				console.log(token)
 				this.httpTokenRequest({
 					url: "/member/member/get_member_info",
 					method: "POST",

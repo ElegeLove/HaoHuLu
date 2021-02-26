@@ -1,58 +1,25 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 
-    <head>
-        <meta charset="UTF-8" />
-        <script>
-            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
-                CSS.supports('top: constant(a)'))
-            document.write(
-                '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
-                (coverSupport ? ', viewport-fit=cover' : '') + '" />')
-        </script>
-        <title>View</title>
-        <style>
-            * {
-                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-                -webkit-tap-highlight-color: transparent;
-            }
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      var __UniViewStartTime__ = Date.now();
+      var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
+        CSS.supports('top: constant(a)'))
+      document.write(
+        '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+        (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+    </script>
+    <title>View</title>
+    <link rel="stylesheet" href="view.css" />
+  </head>
 
-            input[type="search"]::-webkit-search-cancel-button {
-                display: none;
-            }
-        </style>
-        <script>
-            var __wxConfig = {"debug":false,"appname":"好葫芦-医生端","entryPagePath":"pages/index/index.html","page":{"pages/index/index.html":{"window":{"navigationBarBackgroundColor":"#fff","enablePullDownRefresh":true,"compatible":{"ignoreVersion":true},"titleNView":false,"usingComponents":{"uni-load-more":"/components/uni-load-more/uni-load-more"}}},"pages/Login/login.html":{"window":{"navigationBarBackgroundColor":"#fff","compatible":{"ignoreVersion":true},"titleNView":false,"usingComponents":{}}},"pages/Login/agreement.html":{"window":{"navigationBarTitleText":"用户协议","navigationBarBackgroundColor":"#fff","type":"back","compatible":{"ignoreVersion":true},"titleText":"用户协议","titleSize":"36upx","titleColor":"#333333","usingComponents":{}}},"pages/index/showInfo.html":{"window":{"navigationBarTitleText":"查看详情","navigationBarBackgroundColor":"#fff","type":"back","compatible":{"ignoreVersion":true},"titleText":"查看详情","titleSize":"36upx","titleColor":"#333333","usingComponents":{"uni-popup":"/components/uni-popup/uni-popupss"}}},"pages/Order/Order.html":{"window":{"navigationBarBackgroundColor":"#fff","enablePullDownRefresh":true,"compatible":{"ignoreVersion":true},"titleNView":false,"usingComponents":{"uni-load-more":"/components/uni-load-more/uni-load-more"}}},"pages/Order/OrderInfo.html":{"window":{"navigationBarTitleText":"订单详情","navigationBarBackgroundColor":"#fff","type":"back","compatible":{"ignoreVersion":true},"titleText":"订单详情","titleSize":"36upx","titleColor":"#333333","usingComponents":{"uni-popup":"/components/uni-popup/uni-popupss","Y-Steps":"/components/Y-Steps/Y-Steps","y-steps":"/components/Y-Steps/Y-Steps"}}},"pages/Order/Surefinish.html":{"window":{"navigationBarTitleText":"确认完成","navigationBarBackgroundColor":"#fff","type":"back","compatible":{"ignoreVersion":true},"titleText":"确认完成","titleSize":"36upx","titleColor":"#333333","usingComponents":{}}},"pages/My/My.html":{"window":{"navigationBarBackgroundColor":"#fff","compatible":{"ignoreVersion":true},"titleNView":false,"usingComponents":{"uni-popup":"/components/uni-popup/uni-popup"}}},"pages/My/PersonalInfo.html":{"window":{"navigationBarTitleText":"个人信息","navigationBarBackgroundColor":"#fff","type":"back","compatible":{"ignoreVersion":true},"titleNView":{"splitLine":{"color":"#F5F5F5","height":"1px"}},"usingComponents":{}}},"pages/My/OtherInfo.html":{"window":{"navigationBarTitleText":"其他信息","navigationBarBackgroundColor":"#fff","type":"back","compatible":{"ignoreVersion":true},"titleText":"其他信息","titleSize":"36upx","titleColor":"#333333","usingComponents":{}}},"pages/My/NotifyInfo.html":{"window":{"navigationBarTitleText":"消息通知","enablePullDownRefresh":true,"navigationBarBackgroundColor":"#fff","type":"back","compatible":{"ignoreVersion":true},"titleText":"消息通知","titleSize":"36upx","titleColor":"#333333","usingComponents":{"uni-load-more":"/components/uni-load-more/uni-load-more"}}},"pages/My/About.html":{"window":{"navigationBarTitleText":"关于好葫芦","navigationBarBackgroundColor":"#fff","type":"back","compatible":{"ignoreVersion":true},"titleText":"关于好葫芦","titleSize":"36upx","titleColor":"#333333","usingComponents":{}}},"pages/My/Summary.html":{"window":{"navigationBarTitleText":"查看汇总","enablePullDownRefresh":true,"navigationBarBackgroundColor":"#fff","type":"back","compatible":{"ignoreVersion":true},"titleText":"查看汇总","titleSize":"36upx","titleColor":"#333333","usingComponents":{"uni-load-more":"/components/uni-load-more/uni-load-more"}}},"pages/My/Wallet.html":{"window":{"navigationBarTitleText":"钱包","navigationBarBackgroundColor":"#fff","type":"back","compatible":{"ignoreVersion":true},"bounce":"none","titleText":"钱包","titleSize":"36upx","titleColor":"#333333","titleNView":{"buttons":[{"text":"账单","fontSize":"36upx","fontWeight":"500","float":"right","color":"#333333","onclick":"plus.webview.getWebviewById('pages/My/Summary')"}]},"usingComponents":{}}},"pages/My/Bill.html":{"window":{"navigationBarTitleText":"账单","enablePullDownRefresh":true,"navigationBarBackgroundColor":"#fff","type":"back","compatible":{"ignoreVersion":true},"titleText":"账单","titleSize":"36upx","titleColor":"#333333","usingComponents":{"uni-load-more":"/components/uni-load-more/uni-load-more"}}},"pages/index/orderLocation.html":{"window":{"navigationBarTitleText":"选择接单位置","navigationBarBackgroundColor":"#fff","type":"back","compatible":{"ignoreVersion":true},"titleText":"查看详情","titleSize":"36upx","titleColor":"#333333","usingComponents":{"uni-popup":"/components/uni-popup/uni-popup"}}},"pages/Login/country.html":{"window":{"navigationBarTitleText":"选择国家或地区","navigationBarBackgroundColor":"#fff","type":"back","compatible":{"ignoreVersion":true},"titleText":"选择国家或地区","titleSize":"36upx","titleColor":"#333333","usingComponents":{"uni-indexed-list":"/components/uni-indexed-list/uni-indexed-list"}}},"pages/index/incAddress.html":{"window":{"navigationBarTitleText":"添加接单地址","navigationBarBackgroundColor":"#fff","enablePullDownRefresh":true,"type":"back","compatible":{"ignoreVersion":true},"titleText":"添加接单地址","titleSize":"36upx","titleColor":"#333333","usingComponents":{}}},"pages/Order/payThanks.html":{"window":{"navigationBarTitleText":"支付感谢费","navigationBarBackgroundColor":"#fff","type":"back","compatible":{"ignoreVersion":true},"titleText":"支付感谢费","titleSize":"36upx","titleColor":"#333333","usingComponents":{"uni-popup":"/components/uni-popup/uni-popupss"}}},"pages/Order/paySuccess.html":{"window":{"navigationBarTitleText":"支付成功","navigationBarBackgroundColor":"#fff","type":"back","compatible":{"ignoreVersion":true},"titleText":"支付成功","titleSize":"36upx","titleColor":"#333333","usingComponents":{}}},"pages/index/optCity.html":{"window":{"navigationBarTitleText":"选择城市","navigationBarBackgroundColor":"#fff","type":"back","compatible":{"ignoreVersion":true},"titleText":"选择城市","titleSize":"36upx","titleColor":"#333333","usingComponents":{"uni-indexed-list":"/components/uni-indexed-list/uni-indexed-list"}}},"pages/My/inAudit.html":{"window":{"navigationBarTitleText":"审核中","navigationBarBackgroundColor":"#fff","type":"back","compatible":{"ignoreVersion":true},"titleText":"审核中","titleSize":"36upx","titleColor":"#333333","usingComponents":{}}},"pages/My/auditPass.html":{"window":{"navigationBarTitleText":"个人信息","navigationBarBackgroundColor":"#fff","type":"back","compatible":{"ignoreVersion":true},"titleText":"个人信息","titleSize":"36upx","titleColor":"#333333","usingComponents":{}}}},"global":{"window":{"navigationBarTextStyle":"black","navigationBarBackgroundColor":"#F8F8F8","backgroundColor":"#F8F8F8"}},"tabBar":{"color":"#B4B3B3","selectedColor":"#FFC833","backgroundColor":"#ffffff","borderStyle":"white","list":[{"pagePath":"pages/index/index.html","iconPath":"static/images/icon_index.png","selectedIconPath":"static/images/icon_select_index.png","text":"首页"},{"pagePath":"pages/Order/Order.html","iconPath":"static/images/icon_order.png","selectedIconPath":"static/images/icon_select_order.png","text":"订单"},{"pagePath":"pages/My/My.html","iconPath":"static/images/icon_my.png","selectedIconPath":"static/images/icon_select_my.png","text":"我的"}],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/index/index","pages/Login/login","pages/Login/agreement","pages/index/showInfo","pages/Order/Order","pages/Order/OrderInfo","pages/Order/Surefinish","pages/My/My","pages/My/PersonalInfo","pages/My/OtherInfo","pages/My/NotifyInfo","pages/My/About","pages/My/Summary","pages/My/Wallet","pages/My/Bill","pages/index/orderLocation","pages/Login/country","pages/index/incAddress","pages/Order/payThanks","pages/Order/paySuccess","pages/index/optCity","pages/My/inAudit","pages/My/auditPass"],"nvueCompiler":"uni-app","renderer":"auto","splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"compilerVersion":"2.6.1","usingComponents":{}}
-        </script>
-        <script>
-            var __id__ = '';
-            window.__dispatchGenerateFunc__ = function(page) {
-                __id__ = page;
-                document.title = page;
-                // window.history.pushState('', '', page);
-                var wxss = page.replace('.html', '.wxss')
-                if (
-                    typeof __wxAppCode__ !== 'undefined' &&
-                    __wxAppCode__.hasOwnProperty(wxss)
-                ) {
-                    var setCssToHead = __wxAppCode__[wxss]
-                    typeof setCssToHead === 'function' && setCssToHead()
-                    document.dispatchEvent(new CustomEvent("generateFuncReady", {
-                        detail: {
-                            generateFunc: $gwx(page.replace('.html', '.wxml'))
-                        }
-                    }));
-                } else {
-                    plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
-                }
-            };
-        </script>
-        <script src="__uniappes6.js"></script>
-        <script src="uniapp://ready"></script>
-    </head>
-
-    <body>
-        <div></div>
-    </body>
+  <body>
+    <div id="app"></div>
+    <script src="__uniappes6.js"></script>
+    <script src="view.umd.min.js"></script>
+    <script src="app-view.js"></script>
+  </body>
 
 </html>

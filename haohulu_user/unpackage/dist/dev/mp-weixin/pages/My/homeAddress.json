@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "上门地址",
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#fff",
+  "type": "back",
+  "usingComponents": {
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}

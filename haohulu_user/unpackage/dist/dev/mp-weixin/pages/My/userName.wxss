@@ -1,0 +1,52 @@
+
+.content.data-v-161f0570{
+	width: 100%;
+	padding: 0 30rpx;
+	box-sizing: border-box;
+}
+.userName.data-v-161f0570{
+    padding: 40rpx 0;
+    border-bottom: 1rpx solid #E5E5E5;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+}
+.user_text.data-v-161f0570{
+    font-size: 30rpx;
+    color: #323232;
+}
+.user_name.data-v-161f0570{
+    text-align: right;
+	font-size: 30rpx;
+	color: #999999;
+}
+.msg.data-v-161f0570{
+	font-size: 24rpx;
+	color: #999999;
+	margin-top: 20rpx;
+}
+.btn.data-v-161f0570{
+	width: 100%;
+	height: 88rpx;
+	border-radius: 44rpx;
+	background-color: #FFC833;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	font-size: 36rpx;
+	color: #333333;
+	margin-top: 170rpx;
+}
+

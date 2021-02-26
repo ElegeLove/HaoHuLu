@@ -168,7 +168,7 @@
 		},
 		onBackPress(options) {
 			plus.key.hideSoftKeybord();
-			uni.reLaunch({
+			uni.switchTab({
 				url: "/pages/tab/tab?id=0",
 				success: res => {},
 				fail: (err) => {

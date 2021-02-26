@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "发布",
+  "navigationBarBackgroundColor": "#fff",
+  "type": "back",
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "h-time-alert": "/components/h-time-alert/h-time-alert"
+  }
+}

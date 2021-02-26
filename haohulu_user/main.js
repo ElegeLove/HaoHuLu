@@ -72,13 +72,7 @@ Vue.prototype.httpRequest = (opts) => {
 };
 //带Token请求
 Vue.prototype.httpTokenRequest = (opts) => {
-	let token = "";
-	uni.getStorage({
-		key: 'token',
-		success: function(ress) {
-			token = ress.data
-		}
-	});
+	let token = uni.getStorageSync('token')?uni.getStorageSync('token'):'';
 	//此token是登录成功后后台返回保存在storage中的
 	let httpDefaultOpts = {
 		url: baseUrl + opts.url,

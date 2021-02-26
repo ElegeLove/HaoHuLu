@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "选择国家或地区",
+  "navigationBarBackgroundColor": "#fff",
+  "type": "back",
+  "usingComponents": {
+    "uni-indexed-list": "/components/uni-indexed-list/uni-indexed-list"
+  }
+}
